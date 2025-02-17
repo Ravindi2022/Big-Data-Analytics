@@ -1,5 +1,5 @@
 library(ggplot2)
-data <- read.csv("C://Users//ASUS//Documents//Computer Science @Plymuni . NSBM//3rd Year//Big Data Analytics//Lab//customer_data_pca.csv")
+data <- read.csv("C://Users//ASUS//Documents//customer_data_pca.csv")
 head(data)
 str(data)
 
