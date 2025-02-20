@@ -49,5 +49,5 @@ table(data$Country, data$Cluster)
 optimal_number <- sapply(1:10, function(k) kmeans(model_data,centers=k)$tot.withinss)
 
 #drawing lbo
-plot(1:10,optimal_number,type = "b", pch=19,col="red")
+plot(1:10,optimal_number,type = "b", pch=19,col="red") 
 
