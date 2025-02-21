@@ -34,7 +34,6 @@ data$Cluster <- as.factor(results$cluster)
 data$Cluster
 
 #drawing cluster results
-
 ggplot(data, aes(x=Height, y=Weight, color=Cluster))+
   stat_ellipse(aes(fill = Cluster), geom = "polygon", alpha=0.4)+
   geom_point(size=3, alpha=0.8)+
