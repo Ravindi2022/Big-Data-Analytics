@@ -17,7 +17,6 @@ ggplot(data, aes(x=Height, y=Weight, color=Country))+
 
 
 #implementation of cluster model usinf K-Means
-
 #let's remove country column
 model_data <-data[,c("Height","Weight")]
 head(model_data)
