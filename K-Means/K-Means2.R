@@ -33,6 +33,5 @@ results
 
 #adding labels to clusters
 data$Cluster <- as.factor(results$cluster)
-
 data$Cluster
 
