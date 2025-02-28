@@ -1,3 +1,4 @@
+#loading the libraries to the project
 library(ggplot2)
 
 # Load the data set
