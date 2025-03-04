@@ -27,4 +27,4 @@ next_year = np.array([[8.2, 255, 260, 300, 3900, 2400, 3500]])
 future = model.predict(next_year)
 print(f"Inflation Rate in 2029 = {future[0]:.2f}%")
 
-#
+
